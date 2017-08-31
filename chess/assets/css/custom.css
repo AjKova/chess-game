@@ -1,0 +1,9 @@
+/* The modal was hiding behind a div */
+
+.modal-dialog {
+	z-index: 9999999; /* Brought the modal to the front of the page using z-index */
+}
+
+.modal-backdrop.in {
+    opacity: .5 !important;
+}
